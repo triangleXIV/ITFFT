@@ -1,0 +1,8 @@
+由于上传文件限制，预训练权重和数据集要手动下载并放置，简单来说，下载resnet152的权重，放在resnet文件夹里面，把Twitter15/17的图片放在twitter_images文件夹里面，把roberta的预训练权重放在roberta-base里面，就行了，具体操作如下。
+
+1.参照readme.md给的地址，下载resnet152.pth并放到resnet文件夹里面
+2.twitter_images里面有两个文件夹，twitter2015和twitter2017，这两个文件夹里面有相关的图片信息，把下载的Twitter数据集的图片放到这里面
+3.在train.py所在的目录里，运行
+git clone https://huggingface.co/FacebookAI/roberta-base
+获取roberta的预训练权重
+
