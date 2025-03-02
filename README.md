@@ -23,4 +23,4 @@ git clone https://huggingface.co/microsoft/deberta-v3-base
 ```
 
 # 运行
-通常来说直接运行main.py就可以了，然后挑一个test结果的最高值，或者第二高的结果（为什么不是取平均，因为看了很多论文都不讲武德全取的最高值）
+通常来说直接运行main.py就可以了
